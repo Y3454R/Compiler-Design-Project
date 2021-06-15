@@ -1,0 +1,132 @@
+?? CSE 3212 Project
+?? Samin Yeasar (Roll: 1507099)
+
+
+
+intgr newFunction@Max #s intgr VAR@a,, intgr VAR@b e#
+*s
+	outStr #s "hello function" e# |
+	outNL #s e# |
+e*
+
+
+intgr compiler_function #s e#
+*s
+	intgr VAR@a <- 6 jog 5 |
+	intgr VAR@aB <- VAR@a |
+	intgr VAR@b <- 5 ,, VAR@c <- VAR@b |
+
+	outVar #s VAR@a e# |
+	outNL #s e# |
+
+	outVar #s VAR@aB e# |
+	outNL #s e# |
+
+	?? outStr #s "hello" e# |
+	outNL #s e# |
+	outStr #s "hello world!" e# |
+	outStr #s "--------------" e# |
+	outNL #s e#|
+
+	intgr VAR@p <- 5,, VAR@q <- 7 |
+
+	intgr VAR@abir <- 2 |
+
+	VAR@abir <- VAR@a jog VAR@b |
+	
+	outNL #s e#|
+	outVar #s VAR@abir e# |
+	outNL #s e#|
+
+
+	intgr VAR@ghatHoykina <- 2 |
+
+	VAR@ghatHoykina <- VAR@ghatHoykina ghat 3 |
+	
+	outNL #s e#|
+	outVar #s VAR@ghatHoykina e# |
+	outNL #s e#|
+
+	
+	
+	intgr VAR@vagsheshHoykina <- 15|
+	VAR@vagsheshHoykina <- VAR@vagsheshHoykina vagShesh 3 |
+	outNL #s e#|
+	outVar #s VAR@vagsheshHoykina e# |
+	outNL #s e#|
+	
+
+	jodi #s 5 shoman 5 e#
+	*s
+
+	e*
+
+
+	?? if else implementation
+
+	jodi #s 5 choto_theke 4 e#
+	*s
+
+	e*
+	othoba #s 5 choto_theke 4 e#
+	*s
+
+	e*
+	othoba #s 5 choto_theke 4 e#
+	*s
+
+	e*
+	noile
+	*s
+		jodi #s 5 boro_theke 4 e#
+		*s
+
+		e*
+	e*
+
+
+	VAR@a <- 6 jog VAR@a|
+	outVar #s VAR@a e#|
+	intgr VAR@st <- 1 jog 0|
+	intgr VAR@ed <- 10|
+
+
+	?? forward loop
+	fwdloop #s VAR@st porjonto> VAR@ed barbe> 1 e#
+	*s
+		fwdloop #s VAR@st porjonto> VAR@ed barbe> 1 e#
+		*s
+			VAR@b <- 7|
+		e*
+	e*
+	
+	?? backward loop
+	intgr VAR@bckstart <- 10 |
+	intgr VAR@bckend <- 1 |
+	
+	bckloop #s VAR@bckstart porjonto> VAR@bckend kombe> 1 e#
+	*s
+		
+	e*
+
+	??switch case implementation
+
+	mele_kina #s 7 e#
+	*s
+		1>>
+			*s
+
+			e*
+		7>>
+			*s
+				outStr #s "switch" e# |
+			e*
+
+
+		sheshmesh>>  *s
+
+			e*
+	e*
+
+
+e*
