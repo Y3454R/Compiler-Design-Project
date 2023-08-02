@@ -1,0 +1,17 @@
+void main_function LP RP
+LB
+
+int a cm b cm c sm
+
+1 ++ 8 sm
+
+IC LP 5 ++ 3 -- 8 RP
+	LB
+		12 ++ 8 sm
+	RB
+OW
+	LB
+		2 ++ 9 sm
+	RB
+
+RB
